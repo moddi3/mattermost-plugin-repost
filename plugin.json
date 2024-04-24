@@ -1,10 +1,10 @@
 {
-    "id": "com.mattermost.plugin-starter-template",
-    "name": "Plugin Starter Template",
-    "description": "This plugin serves as a starting point for writing a Mattermost plugin.",
-    "homepage_url": "https://github.com/mattermost/mattermost-plugin-starter-template",
-    "support_url": "https://github.com/mattermost/mattermost-plugin-starter-template/issues",
-    "icon_path": "assets/starter-template-icon.svg",
+    "id": "com.moddi3.mattermost-plugin-repost",
+    "name": "Repost for Mattermost",
+    "description": "This plugin allows you to repost private message in any channel/DM you want.",
+    "homepage_url": "https://github.com/moddi3/mattermost-plugin-repost",
+    "support_url": "https://github.com/moddi3/mattermost-plugin-repost/issues",
+    "icon_path": "assets/repost-icon.svg",
     "min_server_version": "6.2.1",
     "server": {
         "executables": {
@@ -19,7 +19,7 @@
         "bundle_path": "webapp/dist/main.js"
     },
     "settings_schema": {
-        "header": "",
+        "header": "Repost your messages without restrictions",
         "footer": "",
         "settings": []
     }
